@@ -1,0 +1,69 @@
+.form{
+    margin: auto;
+    max-width: 20em;
+    border: 1px solid #f8f8f8;
+    border-radius: 1.25em;
+    background-color: cadetblue;
+    padding: 1.25em;
+    color: white;  
+   
+}
+
+input[type=text], select{
+    width: 90%;
+    padding: .5em;
+    border: none;
+    border-radius: .5em;
+}
+
+input[type=email], select {
+    width: 90%;
+    padding: .5em;
+    border: none;
+    border-radius: .5em;
+}
+
+#send{
+    width: 45%;
+    background-color: #f8f8f8f1;
+    padding: .5em;
+    border: none;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    cursor: pointer;
+    text-align: center;   
+}
+#send:hover{
+    background-color: lightgray;
+}
+
+#comentario{
+    width: 90%;
+    padding: .5em;
+    border: none;
+    border-radius: .5em;
+}
+
+#goback{
+    width: 100%;
+    background-color: #f8f8f8f1;
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#goback:hover{
+    background-color: lightgray;
+}
+body{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2FAED;
+    margin-right: 50px;
+}
+
+

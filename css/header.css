@@ -1,0 +1,126 @@
+@media only screen and (max-width: 769px){
+    header{
+        height: 100px;
+        background-color: cadetblue;
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-bottom: solid 5px white;
+        position: fixed;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 0 0 30px 10px rgba(0,0,0,.5);
+        text-align: center;
+    }
+    .link{
+        color: black;
+        text-decoration: none;
+        font-size: 1.20em;
+        padding: 5px;
+    }
+    .link:hover{
+        color: white;
+    }
+    .SocialLinks{
+        display: none;
+    }
+    body{
+        margin-top: 140px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #F8F8F8;
+        
+    }
+
+}
+
+@media only screen and (min-width: 769px){
+    header{
+        height: 170px;
+        background-color: cadetblue;  
+        color: white;
+        font-size: 1.5em;
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-bottom: solid 5px white;
+        position: fixed;
+        box-shadow: 0 0 30px 10px rgba(0,0,0,.5);
+        background-image: url(https://animalogic.ca/wp-content/themes/animalogic-theme/resources/assets/images/bg/bg-2.png);
+        background-repeat: no-repeat;
+        background-position: right;  
+        background-size: 30%;  
+        font-family: Arial, Helvetica, sans-serif;    
+      }
+      .SocialLinks{
+          margin-top: 10px;
+          width: 40px;
+          display: block;
+      }
+      
+      .social{
+          position: absolute;
+          right: 0;
+          padding-top: 20px;
+      }
+      .link{
+          color: black;
+          text-decoration: none;
+          font-size: 1em;
+          padding: 10px;
+      }
+      .link:hover{
+          color: white;
+      }
+      body{
+        margin-top: 190px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #F8F8F8;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    header{
+        height: 170px;
+        background-color: cadetblue;  
+        color: white;
+        font-size: 1.5em;
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-bottom: solid 5px white;
+        position: fixed;
+        box-shadow: 0 0 30px 10px rgba(0,0,0,.5);
+        background-image: url(https://animalogic.ca/wp-content/themes/animalogic-theme/resources/assets/images/bg/bg-2.png);
+        background-size: 22%;
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+      .SocialLinks{
+          margin-top: 10px;
+          width: 40px;
+          display: block;
+      }
+      
+      .social{
+          position: absolute;
+          right: 0;
+          padding-top: 20px;
+      }
+      .link{
+          color: black;
+          text-decoration: none;
+          font-size: 1em;
+          padding: 10px;
+      }
+      .link:hover{
+          color: white;
+      }
+}
+
+
+
+
+
+
+
